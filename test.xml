@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@github.com/gcvidyasagar/test_jenkins.git/" name="jenkins_test" alias="origin"/>
+  <default remote="industrial" revision="industrial-2.0.x" sync-j="4"/>
+
+  <!-- Mentor private repositories -->
+  <project name="test_jenkins.git"                path="test_jenkins"               />
+</manifest>
